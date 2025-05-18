@@ -30,7 +30,7 @@ export default function MovieList() {
 	}, []);
 
 	return (
-		<section>
+		<section className='flex-wrap justify-between w-full min-h-screen bg-slate-200 px-[8vw] py-[8vh]'>
 			{Loading && <p>Loading...</p>}
 
 			{MovieData.map((data) => {
